@@ -3,7 +3,7 @@
 </p>
 
 
-Hare And Tortoise, HAT, are two _de novo_ variant callers developed by the Turner Lab at Washington University in St. Louis.  Hare, as seen in Ng et al. 2021,  uses the software Parabricks, v3.0.0, by NVIDIA, that leverages GPUs to accelerate variant calling, specically for Haplotyecaller GATK 4.1.0 and DeepVariant v0.10.0.  Tortoise uses freely avaiable, open source versions of the these variant callers.  We then use GLnexus to form family level joint-genotyped files to be run through our custom _de novo_ variant filter.
+Hare And Tortoise, HAT, are two _de novo_ variant callers developed by the Turner Lab at Washington University in St. Louis.  Hare, as seen in Ng et al. 2021,  uses the software Parabricks, v3.0.0, by NVIDIA, that leverages GPUs to accelerate variant calling, specically for Haplotyecaller GATK 4.1.0 and DeepVariant v0.10.0.  Tortoise uses freely available, open source versions of the these variant callers.  We then use GLnexus to form family level joint-genotyped files to be run through our custom _de novo_ variant filter.
 
 ## Hare
 
@@ -11,7 +11,7 @@ Hare can be found [here](https://github.com/TNTurnerLab/GPU_accelerated_de_novo_
 
 ## Tortoise
 
-The link to Tortoise can be found [here](https://github.com/TNTurnerLab/Tortoise).  Below you can find the comparison of the two workflows run on WGS 30x NA12878 sample from the 1000 Genomes Project and two monozygtoic twins, labelled here as twin 1 and twin 2.  Further details about these three samples can be found in Ng et. al.  
+The link to Tortoise can be found [here](https://github.com/TNTurnerLab/Tortoise).  Below you can find the comparison of the two workflows run on WGS 30x NA12878 sample from the 1000 Genomes Project and two monozygotic twins, labelled here as twin 1 and twin 2.  Further details about these three samples can be found in Ng et. al.  
 
 ### NA12878
 
@@ -24,3 +24,6 @@ The link to Tortoise can be found [here](https://github.com/TNTurnerLab/Tortoise
 ### Twin 2
 
 ![twin2](https://github.com/TNTurnerLab/HAT/blob/main/doc/GPU_vs_CPU_twin2.png)
+
+
+
