@@ -17,7 +17,7 @@ The link to Tortoise can be found [here](https://github.com/TNTurnerLab/Tortoise
 
 ## Acorn
 
-If you would like to do some followup statistics on the output from HAT, you can install the R package acorn, [found here](https://github.com/TNTurnerLab/acorn)
+If you would like to do some followup statistics on the output from HAT, you can install the R package acorn, [found here.](https://github.com/TNTurnerLab/acorn)  To prep the output from HAT, you can run squirrel.py found here in this repo.
 
 ## Hare vs Tortoise comparisons
 
