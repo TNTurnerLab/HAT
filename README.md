@@ -9,11 +9,11 @@ Hare And Tortoise, HAT, are two _de novo_ variant callers developed by the Tyche
 
 The original code used for Ng et al. (Hare v1.0) can be found [here.](https://github.com/TNTurnerLab/GPU_accelerated_de_novo_workflow)
 
-The updated Hare, v1.1, workflow can be found [here.](https://github.com/TNTurnerLab/Hare)
+The updated Hare, v1.2, workflow can be found [here.](https://github.com/TNTurnerLab/Hare).  This workflow is effective for WGS and WES data only.  
 
 ## Tortoise
 
-The link to Tortoise can be found [here](https://github.com/TNTurnerLab/Tortoise).  Below you can find the comparison of the two workflows run on WGS 30x NA12878 sample from the 1000 Genomes Project and two monozygotic twins, labelled here as twin 1 and twin 2.  Further details about these three samples can be found in Ng et. al.  
+The link to Tortoise can be found [here](https://github.com/TNTurnerLab/Tortoise).  Below you can find the comparison of the two workflows run on WGS 30x NA12878 sample from the 1000 Genomes Project and two monozygotic twins, labelled here as twin 1 and twin 2.  Further details about these three samples can be found in Ng et. al.  This workflow is effect for WGS, WES and PacBio data.
 
 ## Acorn
 
