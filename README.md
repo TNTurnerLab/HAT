@@ -5,6 +5,10 @@
 
 Hare And Tortoise, HAT, are two _de novo_ variant callers developed by the Tychele N. Turner Lab at Washington University in St. Louis Medical School.  Hare, as seen in [Ng et al. 2022](https://doi.org/10.1002/humu.24455),  uses the software Parabricks, v4.0.0-1, by NVIDIA, that leverages GPUs to accelerate variant calling, specifically for Haplotyecaller GATK 4.2.0 and DeepVariant v1.4.0.  Tortoise uses freely available, open source versions of the these variant callers.  We then use GLnexus to form family level joint-genotyped files to be run through our custom _de novo_ variant filter.
 
+## Publications
+
+Please check out our papers using HAT in [Human Mutation](https://pubmed.ncbi.nlm.nih.gov/36054329/) and [Bioinformatics](https://pubmed.ncbi.nlm.nih.gov/38175776/).
+
 ## Hare
 
 The original code used for Ng et al. (Hare v1.0) can be found [here.](https://github.com/TNTurnerLab/GPU_accelerated_de_novo_workflow)
