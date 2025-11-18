@@ -13,7 +13,7 @@ Please check out our papers using HAT in [Human Mutation](https://pubmed.ncbi.nl
 
 The original code used for Ng et al. (Hare v1.0) can be found [here.](https://github.com/TNTurnerLab/GPU_accelerated_de_novo_workflow)
 
-The updated Hare, v1.2, workflow can be found [here.](https://github.com/TNTurnerLab/Hare).  This workflow is effective for WGS and WES data only.  
+The updated Hare, v1.2, workflow can be found [here](https://github.com/TNTurnerLab/Hare).  This workflow is effective for WGS and WES data only.  
 
 ## Tortoise
 
