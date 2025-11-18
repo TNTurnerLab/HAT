@@ -19,6 +19,10 @@ The updated Hare, v1.2, workflow can be found [here.](https://github.com/TNTurne
 
 The link to Tortoise can be found [here](https://github.com/TNTurnerLab/Tortoise).  Below you can find the comparison of the two workflows run on WGS 30x NA12878 sample from the 1000 Genomes Project and two monozygotic twins, labelled here as twin 1 and twin 2.  Further details about these three samples can be found in Ng et. al.  This workflow is effect for WGS, WES and PacBio data.
 
+## HAT-FLEX
+
+[HAT-FLEX](https://github.com/TNTurnerLab/HAT-FLEX) is a caller-agnostic, drop-in trio DNV detection tool that operates directly on existing VCFs. This is useful if you do not have access to BAM/CRAM files. It introduces allele-level intersection, sex/PAR-aware logic, clustering, comprehensive audit outputs, and streamlined operations. HAT-FLEX supports both trio-level and large multi-sample VCFs, producing tidy, per-child outputs with full provenance. Developed in response to user feedback from HAT, HAT-FLEX enables use of existing VCFs, can extend to non-human species with diploid genomes, improves performance, increases configurability, and provides robust handling of sex chromosomes (X/Y).
+
 ## Acorn
 
 If you would like to do some followup statistics on the output from HAT, you can install the R package acorn, [found here.](https://github.com/TNTurnerLab/acorn)  To prep the output from HAT, you can run squirrel.py found here in this repo.
